@@ -4,11 +4,11 @@
 int i=6;
 char user[]="ron";
 char pass[]="1234";
-struct admin{
+struct admin{     
     char name[20];
     int quantity;
     float price;
-}; //changess
+};
 void buy(struct admin y[]); // function through which customer will buy
 void display(struct admin z[]); //display for adminitrator 
 void display2(struct admin j[]);//display for customer
